@@ -13,7 +13,8 @@ Using [pyenv](https://github.com/pyenv/pyenv), the steps are as follows:
 # this assumes pyenv is available in the environment
 pyenv install --list | grep " 3\.[19]" # get all available versions, only starting with 3.1x or 3.9x
 pyenv install 3.12.5 # choose 3.12.5 for example
-pyenv virtualenv 3.12.5 phcon # creates environment 'phcon' with version 3.12.5
+pyenv virtualenv 3.12.5 passive-feedback # creates environment 'passive-feedback' with version 3.12.5
+pyenv activate passive-feedback # activate virtual environment
 ```
 
 The next step is to clone this repository, install the necessary requirements located in `requirements.txt`, and set the `PYTHONPATH` variable accordingly.
